@@ -7,10 +7,10 @@
 {% block content %}
 <!-- Вміст сторінки -->
    <div class="container">
-      <h2 class="my-4 text-center">{{post[2]}}</h2>
-      <img src="{{ url_for('static', filename='img/'+post[4]) }}" class="img-fluid" alt="...">
-      <p class="my-3">{{post[3] | safe}}</p>
-      <p><i>{{post[5]}}</i></p>
+      <h2 class="my-4 text-center">{{post[1]}}</h2>
+      <img src="{{ url_for('static', filename='img/'+post[3]) }}" class="img-fluid" alt="...">
+      <p class="my-3">{{post[2] | safe}}</p>
+      <p><i>{{post[4]}}</i></p>
 
    </div>
    
